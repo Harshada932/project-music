@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/music.css">
+    </head>
+    <body>
+        <div class="main_div">
+            <div class="music_container">
+                <h2 id="title">Creative Minds</h2>
+                <h3 id="artist">Benjamin Tissot</h2>
+                    <div class=img_container>
+                        <img src="../image/Sample Pictures/crativemind.jpg">
+                    </div>
+                    <audio src="../Song/creativeminds.mp3"></audio>
+                
+                    <!--progress bar-->
+                    <div class="progressbar_container" id="progress_container">
+                        <div class="progress_duration_meter">
+                            <div id="current_time">0:00</div>
+                            <div id="duration">2:27</div>
+                        </div>
+                        <div class="progress_div" id="progress_div">
+                            <div class="progress" id="progress"></div>
+                        </div> 
+
+                    </div>
+                    
+                    <!--controls-->
+                    <div class="music_controls">
+                        <i class="fas fa-backward" id="prev" title="Previous"  ></i>
+                        <i class="fas fa-play main_button" id="play" title="Play"></i>
+                        <i class="fas fa-forward" id="next" title="Next"></i>
+                    </div>
+            </div>
+        </div>
+     
+
+
+
+
+        <script src="../JS/music.js"></script>
+        
+    </body>
+</html>
